@@ -1,0 +1,39 @@
+.titulo{
+	position: relative;
+	text-align: left;
+	left: 300px;
+}
+.line {
+	width: 150px;
+	border: 1px solid;	
+	height: 2px;
+	background-color: black;
+	position: relative;
+	left: 300px
+}
+.contenedor1 { 
+	position: relative;
+	width: 75%;
+	text-align: center;
+	margin: 0 auto;
+ }
+.h-imagen {
+	display: inline-block;
+	position: relative;
+	margin: 20px;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+.data {
+	position: absolute;
+	margin-bottom: 8px;
+	margin-right: 5px;
+	right: 0px;
+	bottom: 0px;
+	color: white;
+}
+.overlay    {  
+    opacity: 0.5;
+}
+.h-imagen:hover .overlay {
+    opacity:90;
+}
